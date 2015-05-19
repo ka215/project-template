@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/custom-main.js"
+      ],
+      "bower": [
+        "bootstrap",
+        "fuelux",
+        "moment"
+      ]
+    },
+    "assets.css": {
+      "files": [
+        "styles/concat-assets.scss"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/custom-main.less"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    },
+    "fuelux.css": {
+      "bower": [
+        "fuelux"
+      ]
+    }
+  },
+  "paths": {
+    "source": "sources/",
+    "dist": "assets/"
+  },
+  "config": {
+    "devUrl": "localhost:8000"
+  }
+}
